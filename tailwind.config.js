@@ -24,8 +24,20 @@ module.exports = {
       30: "30px",
       40: "40px",
       45: "45px",
+      70: "70px",
       115: "115px",
+      175: "175px",
       310: "310px",
+      400: "400px",
+    },
+    container: {
+      screens: {
+        sm: "100%",
+        md: "1024px",
+        lg: "1024px",
+        xl: "1024px",
+        "2xl": "1024px",
+      },
     },
     extend: {},
     colors: {
@@ -33,6 +45,7 @@ module.exports = {
       title: "#6F6E73",
       white: "#FFFFFF",
       blue: "#885FFF",
+      whiteSmoke: "#f5f5f5",
     },
   },
   plugins: [],
