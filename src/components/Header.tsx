@@ -3,7 +3,7 @@ import Back from "../images/Back.svg";
 import Settings from "../images/Settings.svg";
 import Notification from "../images/Notification.svg";
 import logo from "../images/logo.svg";
-
+import { UserName } from "../components";
 const Header = () => {
   return (
     <div className="w-container flex border-b bg-whiteSmoke border-grey-dark h-70 justify-center">
@@ -26,7 +26,7 @@ const Header = () => {
         alt="text"
       />
 
-      <p className="w-175 my-auto"> username</p>
+      <UserName />
       <input
         onClick={() => {
           //Open Notifications
