@@ -13,7 +13,7 @@ const UserName = () => {
         alt="text"
       />
       <p className="text-tiny text-center py-14 ml-8 justify-center">
-        {"JOhndow.near"}
+        {"Johndoe.near"}
       </p>
       <input
         onClick={() => {

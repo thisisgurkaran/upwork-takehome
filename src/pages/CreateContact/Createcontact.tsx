@@ -1,6 +1,6 @@
 import { Form, Formik, ErrorMessage } from "formik";
 import * as yup from "yup";
-import { CustomInput, Header } from "../../components";
+import { CustomInput, Header, PageHeading } from "../../components";
 const fields = [
   {
     title: "Full Name",
@@ -52,11 +52,12 @@ const CreateContact = () => {
   };
   const renderError = (message: string) => <p className="">{message}</p>;
   const onSubmit = (values: typeof initialValues) => {
-    console.log(values);
+    //Handle the form values -> make post request
   };
   return (
     <div>
       <Header />
+      <PageHeading />
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
@@ -79,9 +80,9 @@ const CreateContact = () => {
             ))}
 
             <button
-              className="bg-blue w-115 text-white h-40 mt-30 rounded-lg mx-auto flex m-20 justify-center"
+              className="bg-blue px-10 w-115 text-white h-40 mt-30 rounded-lg mx-auto flex m-20 justify-center"
               type="submit">
-              Save
+              <span className="pt-5 text-lg">{"Save  >"}</span>
             </button>
           </Form>
         )}

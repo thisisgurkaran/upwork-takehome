@@ -4,6 +4,7 @@ const GeneralLayout: React.FC = ({ children }) => {
   return (
     <Suspense fallback={null}>
       <Header />
+      <div>New Contact</div>
       {children}
     </Suspense>
   );

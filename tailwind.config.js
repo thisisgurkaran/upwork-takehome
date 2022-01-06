@@ -17,6 +17,7 @@ module.exports = {
     },
     spacing: {
       1: "1px",
+      5: "5px",
       8: "8px",
       10: "10px",
       14: "14px",
@@ -41,7 +42,7 @@ module.exports = {
     },
     extend: {},
     colors: {
-      grey: { light: "#FCFCFC", dark: "#BEBEC2" },
+      grey: { light: "#FCFCFC", dark: "#BEBEC2", header: "#DFDFE0" },
       title: "#6F6E73",
       white: "#FFFFFF",
       blue: "#885FFF",

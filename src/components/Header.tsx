@@ -6,7 +6,7 @@ import logo from "../images/logo.svg";
 import { UserName } from "../components";
 const Header = () => {
   return (
-    <div className="w-container flex border-b bg-whiteSmoke border-grey-dark h-70 justify-center">
+    <div className="w-container flex border-b bg-whiteSmoke border-grey-header h-70 justify-center">
       <input
         onClick={() => {
           //Go Back
