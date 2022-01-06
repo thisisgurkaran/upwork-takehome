@@ -1,5 +1,5 @@
 import Down from "../images/Down.svg";
-import Logo from "../images/Logo.svg";
+import Logo from "../images/logo.svg";
 const UserName = () => {
   return (
     <div className="bg-white px-8 w-175 h-45 my-auto rounded-3xl flex justify-between">
