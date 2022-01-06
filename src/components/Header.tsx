@@ -2,8 +2,7 @@ import Up from "../images/Up.svg";
 import Back from "../images/Back.svg";
 import Settings from "../images/Settings.svg";
 import Notification from "../images/Notification.svg";
-import logo from "../images/logo.svg";
-import { UserName } from "../components";
+import { UserName } from ".";
 const Header = () => {
   return (
     <div className="w-container flex border-b bg-whiteSmoke border-grey-header h-70 justify-center">
